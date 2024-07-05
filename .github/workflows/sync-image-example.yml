@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --src-platform=linux/arm64 docker://docker.io/grafana:9.1.6 docker://registry.cn-hangzhou.aliyuncs.com/chenzhiyuan/grafana:9.1.6
+        skopeo copy docker://docker.io/grafana/grafana:9.1.6 docker://registry.cn-hangzhou.aliyuncs.com/chenzhiyuan/grafana/grafana:9.1.6
