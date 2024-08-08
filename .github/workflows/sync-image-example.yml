@@ -33,4 +33,4 @@ jobs:
         #!/usr/bin/env bash
         #skopeo copy docker://docker.io/kibana:7.17.22 docker://registry.cn-hangzhou.aliyuncs.com/chenzhiyuan/kibana:7.17.22
         #skopeo copy docker://docker.io/elasticsearch:7.17.22 docker://registry.cn-hangzhou.aliyuncs.com/chenzhiyuan/elasticsearch:7.17.22
-        skopeo copy docker://docker.io/halohub/halo:2.18.0 docker://registry.cn-hangzhou.aliyuncs.com/chenzhiyuan/mysql:5.7
+        skopeo copy docker://docker.io/halohub/halo:2.18.0 docker://registry.cn-hangzhou.aliyuncs.com/chenzhiyuan/halohub/halo:2.18.0
